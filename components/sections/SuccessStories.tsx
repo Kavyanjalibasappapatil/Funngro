@@ -95,12 +95,7 @@ export default function SuccessStories() {
                   <div className="min-w-0">
                     <div className="flex items-center gap-2">
                       <span className="text-white font-semibold text-sm truncate">{s.name}</span>
-                      <span
-                        className="text-[10px] px-2 py-0.5 rounded-full font-bold flex-shrink-0"
-                        style={{ background: `${s.color}20`, color: s.color }}
-                      >
-                        {s.badge}
-                      </span>
+                      
                     </div>
                     <div className="flex items-center gap-1 mt-0.5">
                       <MapPin size={11} className="text-white/30 flex-shrink-0" aria-hidden="true" />
